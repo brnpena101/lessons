@@ -23,13 +23,19 @@ let bothProjects = nextProject + nextOtherProject;
 //console.log(bothProjects);
 //Example of concatenation
 
+function personalInfo(name, age) {
+    //console.log('I am ' + name + " " + age);
+
+}
+personalInfo("Brandon", "27");
+//This prints out a function that says "I am Brandon 27"
 
 
-
-
-
-
-
+function favoriteGoats(myGoat1, myGoat2) {
+    //console.log('These are my favorite goats ' + myGoat1 + " " + myGoat2);
+}
+favoriteGoats(myGoat1, myGoat2);
+//This function prints out the strings stored in a variable instead of the data stored in the call. 
 
 
 
