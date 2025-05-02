@@ -44,24 +44,29 @@ const myColors = ['Blue', 'Black', 'Green', 'Red']
 //Printing an array as a string, I assumed this is what you meant by converting it into a variable?
 
 
-function starWars() {
-    let starWarsNames = ["Nien Nunb", "Count Dooku", "Han Solo"]
-    starWarsNames.push("Greedo")
-    starWarsNames.push("R2-D2")
+
+let starWarsNames = ["Nien Nunb", "Count Dooku", "Han Solo"]
+function starWars(name1, name2) {
+    
+    starWarsNames.push(name1)
+    starWarsNames.push(name2)
     // console.log(starWarsNames)
     }
 
-starWars()
+starWars("Darth Vader", "Emperor")
 
 
-function jamesBond() {
-    let jamesBondActors = ["Sean Connery", "Roger Craig", "Pierce Brosnan"]
-    jamesBondActors.push("Daniel Craig")
-    jamesBondActors.push("George Lazenby")
+let jamesBondActors = ["Sean Connery", "Roger Moore"]
+function jamesBond(name1, name2) {
+    
+    jamesBondActors.push(name1)
+    jamesBondActors.push(name2)
     // console.log(jamesBondActors)
 }
 
-jamesBond()
+jamesBond("Daniel Craig", "Pierce Brosnan")
+
+//UPDATED
 
 //These are the two functions  that add names to an array dynamically
 
